@@ -141,6 +141,9 @@ export default class Client {
       return this.close();
 
     const room = this.handlers[0] as Room;
+    if (room.isDuringGame) // must be sent in waiting room
+      return this.close();
+
     room.start();
   }
 

@@ -41,7 +41,7 @@ export default class Room extends ClientHandler {
     [k: string]: Board
   };
   public get isDuringGame(): boolean {
-    return Boolean(this.boards);
+    return this.boards !== undefined;
   }
 
   public broadcast(message: Message) {

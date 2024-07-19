@@ -1,9 +1,0 @@
-{
-  "plugins": [
-    ["@babel/plugin-transform-react-jsx", {
-      "pragma": "parseJSX",
-      "pragmaFrag": "Fragment",
-      "throwIfNamespace": false
-    }]
-  ]
-}

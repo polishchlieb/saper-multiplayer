@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Comic Sans';
+  src: url('./assets/comic-sans.ttf');
+}
+
+body {
+  font-family: 'Comic Sans', sans-serif;
+  overflow: hidden;
+}
