@@ -1,17 +1,11 @@
 # saper multiplayer
 trzecia najlepsza gra we wszechświecie dostępna teraz w wersji open source! 🤠
 
-## Podstawowe pytania
-
-### Jak działa client i dlaczego?
-tak
-
 ## Instalacja
 
 ### Client
-- `npm i` bo paczki zainstalować trzeba..
-- `npm run build` żeby zbuildować do `build/`, lub też...
-- `npm start` żeby uruchomić lokalnie na porcie 1234
+- `npm i` żeby zainstalować paczki..
+- `npm start` żeby uruchomić lokalnie
 
 ### Server
 - `npm i`, potem..

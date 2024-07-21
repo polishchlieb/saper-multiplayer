@@ -2,7 +2,7 @@
   import BombImage from './assets/bomb.svg';
   import FlagImage from './assets/flag.svg';
   import { socket } from './lib/socket';
-    import { nickname } from './store';
+  import { nickname } from './store';
 
   export let x: number;
   export let y: number;
