@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang='ts'>
   import BombImage from './assets/bomb.svg';
   import FlagImage from './assets/flag.svg';
   import { socket } from './lib/socket';
@@ -43,11 +43,11 @@
 
 <div class={className} on:click={handleLeftClick} on:contextmenu={handleRightClick}>
   {#if hasBomb}
-    <img src={BombImage} alt="la bomba">
+    <img src={BombImage} alt='la bomba'>
   {:else if isVisible}
     {nearBombs}
   {:else if isFlagged}
-    <img src={FlagImage} alt="biala flaga">
+    <img src={FlagImage} alt='biala flaga'>
   {/if}
 </div>
 

@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang='ts'>
   type Option = { value: string, text: string };
 
   export let id: string;
@@ -7,7 +7,7 @@
   export let value = options[0].value;
 </script>
 
-<div class="epic-select">
+<div class='epic-select'>
   <label for={id}>{title}</label>
   <select on:change bind:value={value}>
     {#each options as option (option.value)}

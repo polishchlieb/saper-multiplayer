@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang='ts'>
   import CupImage from './assets/cup.png';
   import BombImage from './assets/bomb.svg';
 
@@ -12,7 +12,7 @@
     <div class='end'>
       <span class='game-over-text'>gra sie skonczyla chyba</span>
       <div class='winner'>
-        <img src={CupImage} alt="puharek">
+        <img src={CupImage} alt='puharek'>
         <span class='winner-text'>Zwycienzca</span>
       </div>
       <span class='winner-name'>{winner}</span>

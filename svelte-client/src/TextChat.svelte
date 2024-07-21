@@ -1,7 +1,7 @@
-<script lang="ts">
+<script lang='ts'>
   import { onDestroy } from 'svelte';
-import { socket, socketListener } from './lib/socket';
-    import TextMessage from './TextMessage.svelte';
+  import { socket, socketListener } from './lib/socket';
+  import TextMessage from './TextMessage.svelte';
 
   let content = '';
 

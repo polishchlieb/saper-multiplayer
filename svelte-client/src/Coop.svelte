@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang='ts'>
   import Board from './Board.svelte';
 </script>
 

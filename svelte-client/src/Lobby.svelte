@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang='ts'>
   import EpicButton from './lib/epic-button.svelte';
   import EpicSelect from './lib/epic-select.svelte';
   import PlayerList from './PlayerList.svelte';
@@ -6,7 +6,7 @@
   import TextChat from './TextChat.svelte';
   import { socket, socketListener } from './lib/socket';
   import Fireworks from './assets/fireworks.gif';
-    import { onDestroy } from 'svelte';
+  import { onDestroy } from 'svelte';
 
   const gameModes = [
     { value: 'competition', text: 'wielki pojedynek saperski' },
@@ -68,7 +68,7 @@
   <TextChat />
 </div>
 
-<img src={Fireworks} class="fireworks" alt="fajewerk" style={fireworkStyles}>
+<img src={Fireworks} class='fireworks' alt='fajewerk' style={fireworkStyles}>
 
 <style>
   .fireworks {

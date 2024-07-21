@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang='ts'>
   import Competition from './Competition.svelte';
   import Coop from './Coop.svelte';
   import Lobby from './Lobby.svelte';

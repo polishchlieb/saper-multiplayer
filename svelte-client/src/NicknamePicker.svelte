@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang='ts'>
   import EpicButton from './lib/epic-button.svelte';
   import EpicInput from './lib/epic-input.svelte';
   import ErrorMessage from './lib/error-message.svelte';
@@ -33,8 +33,8 @@
   }
 </script>
 
-<div class="container">
-  <EpicInput placeholder="twuj epicki nik" bind:value={$nickname} />
+<div class='container'>
+  <EpicInput placeholder='twuj epicki nik' bind:value={$nickname} />
   <EpicButton on:click={handleClick}>klik!</EpicButton>
 
   {#if error}

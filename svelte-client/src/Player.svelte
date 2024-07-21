@@ -1,11 +1,11 @@
-<script lang="ts">
+<script lang='ts'>
   import PlayerImage from './assets/player.webp';
 
   export let name: string;
 </script>
 
-<div class="player">
-  <img src={PlayerImage} alt="obrazek graczowy" class="playerimage">
+<div class='player'>
+  <img src={PlayerImage} alt='obrazek graczowy' class='playerimage'>
   {name}
 </div>
 

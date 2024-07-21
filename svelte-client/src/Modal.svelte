@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang='ts'>
   import { modal } from './store';
   import CupImage from './assets/cup.png';
   import BombImage from './assets/bomb.svg';
@@ -8,14 +8,14 @@
   }
 </script>
 
-<div class="modal-wrapper" on:click={handleClick}
+<div class='modal-wrapper' on:click={handleClick}
   style={$modal.visible ? 'display: flex' : 'display: none'}>
-  <div class="modal">
+  <div class='modal'>
     {#if $modal.type === 'winner'}
       <div class='end'>
         <span class='game-over-text'>gra sie skonczyla chyba</span>
         <div class='winner'>
-          <img src={CupImage} alt="puharek" />
+          <img src={CupImage} alt='puharek' />
           <span class='winner-text'>Zwycienzca</span>
         </div>
         <span class='winner-name'>{$modal.content.winner}</span>
@@ -27,7 +27,7 @@
       <div class='end'>
         <span class='game-over-text'>gra sie skonczyla chyba</span>
         <div class='winner'>
-          <img src={CupImage} alt="puharek" />
+          <img src={CupImage} alt='puharek' />
           <span class='winner-text'>Zwycenstwo!</span>
         </div>
         <span class='end-element'>Czas: {$modal.content.time / 1000}s</span>
@@ -36,13 +36,13 @@
       <div class='end'>
         <span class='game-over-text'>gra sie skonczyla chyba</span>
         <div class='winner'>
-          <img src={BombImage} alt="la bomba" />
+          <img src={BombImage} alt='la bomba' />
           <span class='winner-text'>Przegrana...</span>
         </div>
         <span class='end-element'>Czas: {$modal.content.time / 1000}s</span>
       </div>
     {:else if $modal.type === 'error'}
-      <div class="error">
+      <div class='error'>
         {$modal.content}
       </div>
     {/if}

@@ -1,4 +1,4 @@
-<button class="epic-button" on:click>
+<button class='epic-button' on:click>
   <slot />
 </button>
 

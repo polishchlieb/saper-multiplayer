@@ -1,9 +1,9 @@
-<script lang="ts">
+<script lang='ts'>
   export let placeholder: string | null = null;
   export let value = '';
 </script>
 
-<input type="text" class="epic-input" {placeholder} bind:value={value}>
+<input type='text' class='epic-input' {placeholder} bind:value={value}>
 
 <style>
   .epic-input {

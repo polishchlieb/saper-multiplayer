@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang='ts'>
   import PlayerImage from './assets/player.webp';
   
   export let author: string;
@@ -6,7 +6,7 @@
 </script>
 
 <div class='text-message'>
-  <img src={PlayerImage} alt="usmieszek">
+  <img src={PlayerImage} alt='usmieszek'>
   <span class='message-author'>{author}</span>
   <span>{content}</span>
 </div>

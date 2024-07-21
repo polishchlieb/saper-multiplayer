@@ -3,7 +3,7 @@
   import Player from './Player.svelte';
 </script>
 
-<div class="playerlist">
+<div class='playerlist'>
   {#each $playerNames as player}
     <Player name={player} />
   {/each}

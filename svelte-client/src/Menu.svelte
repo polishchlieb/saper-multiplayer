@@ -20,7 +20,7 @@
   }
 </script>
 
-<div class="container">
+<div class='container'>
   <h1>witanie, {$nickname}</h1>
   <div class='section'>
     <EpicButton on:click={createGame}>utwórz grę</EpicButton>

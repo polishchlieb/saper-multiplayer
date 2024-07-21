@@ -1,4 +1,4 @@
-<div class="error">
+<div class='error'>
   <slot />
 </div>
 
